@@ -1,0 +1,38 @@
+.navbar{
+    background-color: #c69d55 ;
+    color: #344d4c;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar-toggle{
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+.navbar-menu{
+    list-style-type: none ;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.navbar-item{
+    padding: 10px;
+}
+.navbar-menu.show{
+    max-height: 200px;
+}
+
+
+
+
+
+
